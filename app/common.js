@@ -1,3 +1,3 @@
-import * as CommonDashboardFuncs from '@owczar/dashboard-style--airframe';
+import * as CommonDashboardFuncs from 'dashboard-style-airframe';
 
 export default CommonDashboardFuncs;
