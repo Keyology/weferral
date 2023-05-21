@@ -87,9 +87,9 @@ let initializedState = async function(dispatch){
         }
     }
     catch(err){
-
-    }
-    return dispatch(initializeState(initialState));
+        console.err("ERROR: ", err)
+}
+    return dispatch(initializedState(initialState));
 };
 
 store.dispatch(initializedState);
